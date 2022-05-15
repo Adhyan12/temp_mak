@@ -13,6 +13,7 @@ class OutletDetails extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: Colors.transparent,
+        elevation: 0,
         leading: const Icon(Icons.arrow_back_ios, color: Colors.white,),
         title: const Text('Outlet Details', style: TextStyle(color: Colors.white)),
       ),
