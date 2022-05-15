@@ -12,10 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const BranchInfo(),
+      home: const OutletDetails(),
       routes: {
         RegistrationPage.id : (context)=>const RegistrationPage(),
         BranchInfo.id : (context)=> const BranchInfo(),
+        OutletDetails.id: (context)=> const OutletDetails(),
       },
     );
   }
