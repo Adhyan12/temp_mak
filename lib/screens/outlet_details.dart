@@ -48,7 +48,7 @@ class OutletDetails extends StatelessWidget {
                       children:const [
                         FaIcon(FontAwesomeIcons.locationDot,size: 18,color: Colors.blue,),
                         SizedBox(width: 8,),
-                        Text('402, Baegu Building, 116,\n Blah Blah Blah',style: kTextStyle,)
+                        Flexible(child: Text('402, Baegu Building, 116, Blah Blah Blah',style: kTextStyle,))
                       ],
                     )
 
@@ -65,7 +65,8 @@ class OutletDetails extends StatelessWidget {
               // width: double.infinity,
               decoration:const  BoxDecoration(
                 color: Colors.blue,
-                borderRadius: BorderRadius.only(bottomRight: Radius.circular(60.0),bottomLeft: Radius.circular(60.0)),
+                borderRadius: BorderRadius.only(bottomRight: Radius.circular(60.0),
+                    bottomLeft: Radius.circular(60.0)),
                 image: DecorationImage(image: AssetImage('images/hotel_pic.webp',),
                 fit: BoxFit.fill
                 ),
