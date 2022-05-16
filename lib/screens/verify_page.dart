@@ -33,6 +33,7 @@ class _VerifyPageState extends State<VerifyPage> {
                 height: 20,
               ),
               const TextField(
+                keyboardType:TextInputType.phone,
                 decoration: InputDecoration(
                     enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(width: 0.3))),
