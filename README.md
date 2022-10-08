@@ -1,4 +1,4 @@
-# project_mak
+# Copy of final year project
 
 A new Flutter project.
 
